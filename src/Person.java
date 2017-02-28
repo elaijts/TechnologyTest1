@@ -4,14 +4,16 @@
 public class Person {
 
     private String name;
+
     private float age;
+
 
 
     public Person(String name) {
         this.name = name;
     }
 
-    public int getAge() {
+    public double getAge() {
         return age;
     }
 
