@@ -4,7 +4,8 @@
 public class Person {
 
     private String name;
-    private int age;
+    private float age;
+
 
     public Person(String name) {
         this.name = name;
@@ -17,4 +18,5 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
 }
