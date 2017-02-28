@@ -4,7 +4,10 @@
 public static void main (String args[]) {
 
     private String name;
-    private double age;
+
+    private float age;
+
+
 
     public Person(String name) {
         this.name = name;
@@ -17,4 +20,5 @@ public static void main (String args[]) {
     public void setAge(int age) {
         this.age = age;
     }
+
 }
