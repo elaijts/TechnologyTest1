@@ -1,7 +1,7 @@
 /**
  * Created by Dunkl on 28/02/2017.
  */
-public class Person {
+public static void main (String args[]) {
 
     private String name;
     private int age;
